@@ -39,6 +39,6 @@ app.post('/events', (req,res) => {
 });
 
 app.listen(4000, () => {
-    console.log('on K8S')
+    console.log('on K8S with Skaffold');
     console.log(' Listening on 4000');
 });
